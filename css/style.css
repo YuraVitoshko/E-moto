@@ -232,6 +232,7 @@ body {
           align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  overflow: auto;
   row-gap: 0.1875rem;
 }
 
@@ -1695,6 +1696,8 @@ body {
         -ms-flex-align: end;
             align-items: end;
     row-gap: 1.25rem;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
   }
 
   .menu__link {
@@ -2002,8 +2005,8 @@ body {
     position: relative;
   }
 
-  .future__bg:not(:last-child) {
-    margin-bottom: 2.5rem;
+  .future__container {
+    padding-top: 2.5rem;
   }
 }
 
